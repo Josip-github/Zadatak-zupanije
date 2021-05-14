@@ -40,3 +40,9 @@ alter table opcina add foreign key (zupanija) references zupanija(sifra);
 
 alter table zupanija add foreign key (zupan) references zupan(sifra);
 
+insert into zupan(ime, prezime)
+values('Angela','Merkel'),('Jacques','Chirac'),('Boris','>Johnson');
+
+insert into zupanija(naziv, zupan)
+values('Splitsko-Dalmatinska', 1),('Dubrovaèko-neretvanska', 2),('Požeško-slavonska', 3);
+
