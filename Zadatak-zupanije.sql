@@ -53,3 +53,5 @@ insert into mjesto(opcina,naziv)
 values(1,'xyz'),(1,'asd'),(2,'fgh'),(2,'hjk'),(3,'klè'),(3,'poi'),
 (4,'rew'),(4,'fvg'),(5,'nhz'),(5,'mji'),(6,'ggt'),(6,'wqa');
 
+update mjesto set naziv='Gospiæ' where mjesto.sifra<6;
+
