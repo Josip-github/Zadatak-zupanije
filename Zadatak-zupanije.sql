@@ -46,3 +46,10 @@ values('Angela','Merkel'),('Jacques','Chirac'),('Boris','>Johnson');
 insert into zupanija(naziv, zupan)
 values('Splitsko-Dalmatinska', 1),('Dubrovaèko-neretvanska', 2),('Požeško-slavonska', 3);
 
+insert into opcina(zupanija,naziv)
+values(1,'Split'),(1,'Trogir'),(2,'Dubrovnik'),(2,'Cavtat'),(3,'Požega'),(3,'Velika');
+
+insert into mjesto(opcina,naziv)
+values(1,'xyz'),(1,'asd'),(2,'fgh'),(2,'hjk'),(3,'klè'),(3,'poi'),
+(4,'rew'),(4,'fvg'),(5,'nhz'),(5,'mji'),(6,'ggt'),(6,'wqa');
+
