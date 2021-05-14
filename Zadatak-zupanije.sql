@@ -55,3 +55,6 @@ values(1,'xyz'),(1,'asd'),(2,'fgh'),(2,'hjk'),(3,'klè'),(3,'poi'),
 
 update mjesto set naziv='Gospiæ' where mjesto.sifra<6;
 
+#ovo ne prolazi! ne znam zasto, vjerojatno jer je opcina foreign key u tablici 'mjesto'
+delete from opcina where zupanija=1;
+
